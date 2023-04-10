@@ -26,7 +26,6 @@ export default async function Home() {
                         href={`/projects/${project.slug}`}
                         className='border-slate-500 hover:scale-105 hover:border-cyan-500 p-2 transition duration-300 border-2 rounded-lg cursor-pointer'
                         key={project._id}
-                        target='_blank'
                     >
                         {project.image && (
                             <Image
