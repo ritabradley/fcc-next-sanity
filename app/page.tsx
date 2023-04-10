@@ -23,7 +23,7 @@ export default async function Home() {
             <div className='md:grid-cols-2 lg:grid-cols-3 grid gap-8 mt-5'>
                 {projects.map((project) => (
                     <Link
-                        href={`/projects/${project.url}`}
+                        href={`/projects/${project.slug}`}
                         className='border-slate-500 hover:scale-105 hover:border-cyan-500 p-2 transition duration-300 border-2 rounded-lg cursor-pointer'
                         key={project._id}
                         target='_blank'
